@@ -1,0 +1,40 @@
+site_name: Kernel Panic
+site_description: Open source, edge computing, AI agents, distributed systems and open protocols.
+site_url: https://kernelpanic2015.github.io/kernelpanic.github.io/
+repo_url: https://github.com/kernelpanic2015/kernelpanic.github.io
+repo_name: kernelpanic2015/kernelpanic.github.io
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Projects: projects.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kernelpanic2015
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
