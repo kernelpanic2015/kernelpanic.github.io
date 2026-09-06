@@ -1,0 +1,123 @@
+:root {
+  --kp-indigo: #4051b5;
+  --kp-indigo-2: #536dfe;
+  --kp-text: #17202a;
+  --kp-muted: #5f6b7a;
+  --kp-soft: #f6f7fb;
+  --kp-line: #e6e8ef;
+}
+[data-md-color-scheme=default] {
+  --md-primary-fg-color: var(--kp-indigo);
+  --md-primary-fg-color--light: #5b6dc7;
+  --md-primary-fg-color--dark: #33439c;
+  --md-accent-fg-color: var(--kp-indigo-2);
+}
+.md-header { box-shadow: 0 1px 0 rgba(17,24,39,.08); }
+.md-tabs { background: var(--md-primary-fg-color); }
+.md-grid { max-width: 76rem; }
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary { display: none; }
+  .md-main__inner { margin-top: 1.5rem; }
+}
+.md-tabs__item { position: relative; }
+.kp-project-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% - .1rem);
+  left: 0;
+  min-width: 15rem;
+  padding: .45rem;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .45rem;
+  box-shadow: 0 .7rem 2rem rgba(0,0,0,.14);
+  z-index: 20;
+}
+.md-tabs__item:hover .kp-project-dropdown,
+.md-tabs__item:focus-within .kp-project-dropdown { display: block; }
+.kp-project-dropdown a {
+  display: block;
+  padding: .55rem .7rem;
+  color: var(--md-default-fg-color);
+  border-radius: .3rem;
+  font-size: .72rem;
+  white-space: nowrap;
+}
+.kp-project-dropdown a:hover { background: var(--md-default-fg-color--lightest); }
+.kp-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(20rem, .85fr);
+  gap: 4rem;
+  align-items: center;
+  min-height: 30rem;
+  padding: 4.5rem 0 5rem;
+}
+.kp-eyebrow {
+  color: var(--md-accent-fg-color);
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  font-size: .7rem;
+}
+.kp-hero h1 {
+  margin: .5rem 0 1rem;
+  max-width: 13ch;
+  font-size: clamp(2.6rem, 6vw, 4.8rem);
+  line-height: .98;
+  letter-spacing: -.045em;
+  color: var(--md-default-fg-color);
+}
+.kp-lead {
+  max-width: 42rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--md-default-fg-color--light);
+}
+.kp-actions { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1.6rem; }
+.kp-visual {
+  position: relative;
+  min-height: 25rem;
+  border-radius: 1.25rem;
+  background: linear-gradient(145deg, rgba(64,81,181,.11), rgba(83,109,254,.03));
+  border: 1px solid rgba(64,81,181,.16);
+  overflow: hidden;
+}
+.kp-orbit { position: absolute; inset: 14% 12%; border: 1px solid rgba(64,81,181,.22); border-radius: 50%; }
+.kp-orbit.two { inset: 27% 24%; }
+.kp-core {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);
+  width: 7rem; height: 7rem; border-radius: 1.2rem;
+  display:flex; align-items:center; justify-content:center;
+  background: var(--md-primary-fg-color); color:white; font-weight:700;
+  box-shadow: 0 1rem 3rem rgba(64,81,181,.28);
+}
+.kp-node {
+  position:absolute; padding:.65rem .8rem; border-radius:.6rem;
+  background:var(--md-default-bg-color); border:1px solid var(--md-default-fg-color--lightest);
+  box-shadow:0 .4rem 1.4rem rgba(0,0,0,.08); font-size:.72rem; font-weight:700;
+}
+.kp-node.n1 { left:8%; top:16%; } .kp-node.n2 { right:7%; top:22%; }
+.kp-node.n3 { left:10%; bottom:16%; } .kp-node.n4 { right:8%; bottom:18%; }
+.kp-section { padding: 3.8rem 0; border-top: 1px solid var(--md-default-fg-color--lightest); }
+.kp-section h2 { font-size: 2rem; margin: 0 0 .6rem; }
+.kp-section-intro { max-width: 44rem; color: var(--md-default-fg-color--light); }
+.kp-card-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; margin-top:1.6rem; }
+.kp-card {
+  display:block; padding:1.35rem; border:1px solid var(--md-default-fg-color--lightest);
+  border-radius:.75rem; color:inherit !important; transition:transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+.kp-card:hover { transform:translateY(-2px); border-color:rgba(64,81,181,.35); box-shadow:0 .8rem 2rem rgba(0,0,0,.07); }
+.kp-card strong { display:block; font-size:1rem; margin-bottom:.35rem; }
+.kp-card span { color:var(--md-default-fg-color--light); font-size:.82rem; line-height:1.55; }
+.kp-project-label { color:var(--md-accent-fg-color); font-size:.66rem; font-weight:700; text-transform:uppercase; letter-spacing:.08em; margin-bottom:.3rem; }
+.kp-page-intro { max-width: 48rem; font-size: 1.02rem; color: var(--md-default-fg-color--light); }
+@media screen and (max-width: 60em) {
+  .kp-hero { grid-template-columns:1fr; gap:2rem; padding-top:2.5rem; }
+  .kp-visual { min-height:19rem; }
+  .kp-card-grid { grid-template-columns:1fr; }
+  .kp-project-dropdown { display:none !important; }
+}
+/* Home stays in MkDocs navigation for correct i18n routing, but the site title is the desktop Home control. */
+@media screen and (min-width: 60em) {
+  .md-tabs__item:first-child { display: none; }
+}

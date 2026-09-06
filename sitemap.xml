@@ -1,11 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://kernelpanic2015.github.io/</loc>
-         <lastmod>2026-09-06</lastmod>
+        <loc>https://kernelpanic2015.github.io/</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kernelpanic2015.github.io/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kernelpanic2015.github.io/pt-BR/"/>
     </url>
     <url>
-         <loc>https://kernelpanic2015.github.io/projects/</loc>
-         <lastmod>2026-09-06</lastmod>
+        <loc>https://kernelpanic2015.github.io/about/</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kernelpanic2015.github.io/about/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kernelpanic2015.github.io/pt-BR/about/"/>
+    </url>
+    <url>
+        <loc>https://kernelpanic2015.github.io/blog/</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kernelpanic2015.github.io/blog/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kernelpanic2015.github.io/pt-BR/blog/"/>
+    </url>
+    <url>
+        <loc>https://kernelpanic2015.github.io/projects/</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kernelpanic2015.github.io/projects/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kernelpanic2015.github.io/pt-BR/projects/"/>
+    </url>
+    <url>
+        <loc>https://kernelpanic2015.github.io/projects/ascp/</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kernelpanic2015.github.io/projects/ascp/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kernelpanic2015.github.io/pt-BR/projects/ascp/"/>
+    </url>
+    <url>
+        <loc>https://kernelpanic2015.github.io/projects/fable/</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kernelpanic2015.github.io/projects/fable/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kernelpanic2015.github.io/pt-BR/projects/fable/"/>
+    </url>
+    <url>
+        <loc>https://kernelpanic2015.github.io/projects/omni-one/</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kernelpanic2015.github.io/projects/omni-one/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kernelpanic2015.github.io/pt-BR/projects/omni-one/"/>
+    </url>
+    <url>
+        <loc>https://kernelpanic2015.github.io/projects/openedge32/</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kernelpanic2015.github.io/projects/openedge32/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kernelpanic2015.github.io/pt-BR/projects/openedge32/"/>
+    </url>
+    <url>
+        <loc>https://kernelpanic2015.github.io/pt-BR/</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kernelpanic2015.github.io/pt-BR/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kernelpanic2015.github.io/"/>
+    </url>
+    <url>
+        <loc>https://kernelpanic2015.github.io/pt-BR/about/</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kernelpanic2015.github.io/pt-BR/about/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kernelpanic2015.github.io/about/"/>
+    </url>
+    <url>
+        <loc>https://kernelpanic2015.github.io/pt-BR/blog/</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kernelpanic2015.github.io/pt-BR/blog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kernelpanic2015.github.io/blog/"/>
+    </url>
+    <url>
+        <loc>https://kernelpanic2015.github.io/pt-BR/projects/</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kernelpanic2015.github.io/pt-BR/projects/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kernelpanic2015.github.io/projects/"/>
+    </url>
+    <url>
+        <loc>https://kernelpanic2015.github.io/pt-BR/projects/ascp/</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kernelpanic2015.github.io/pt-BR/projects/ascp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kernelpanic2015.github.io/projects/ascp/"/>
+    </url>
+    <url>
+        <loc>https://kernelpanic2015.github.io/pt-BR/projects/fable/</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kernelpanic2015.github.io/pt-BR/projects/fable/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kernelpanic2015.github.io/projects/fable/"/>
+    </url>
+    <url>
+        <loc>https://kernelpanic2015.github.io/pt-BR/projects/omni-one/</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kernelpanic2015.github.io/pt-BR/projects/omni-one/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kernelpanic2015.github.io/projects/omni-one/"/>
+    </url>
+    <url>
+        <loc>https://kernelpanic2015.github.io/pt-BR/projects/openedge32/</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kernelpanic2015.github.io/pt-BR/projects/openedge32/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kernelpanic2015.github.io/projects/openedge32/"/>
     </url>
 </urlset>
