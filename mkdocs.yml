@@ -1,8 +1,8 @@
 site_name: Kernel Panic
 site_description: Open source, edge computing, AI agents, distributed systems and open protocols.
-site_url: https://kernelpanic2015.github.io/kernelpanic.github.io/
-repo_url: https://github.com/kernelpanic2015/kernelpanic.github.io
-repo_name: kernelpanic2015/kernelpanic.github.io
+site_url: https://kernelpanic2015.github.io/
+repo_url: https://github.com/kernelpanic2015/kernelpanic2015.github.io
+repo_name: kernelpanic2015/kernelpanic2015.github.io
 
 theme:
   name: material
